@@ -1,0 +1,116 @@
+{
+  "@@locale": "en",
+  "appName": "Flux Player",
+  "tagline": "Your library. Your way.",
+  "studioName": "Game-Changer Studios",
+  "libraryTitle": "Library",
+  "historyTitle": "History",
+  "settingsTitle": "Settings",
+  "detailsTitle": "Details",
+  "playerTitle": "Now Playing",
+  "continueWatching": "Continue Watching",
+  "placeholderComingSoon": "Coming soon",
+  "retry": "Retry",
+  "errorGeneric": "Something went wrong",
+  "errorFileMissing": "This file is no longer available on disk",
+  "addFolder": "Add folder",
+  "scanLibrary": "Re-scan library",
+  "libraryEmpty": "Your library is empty",
+  "libraryEmptyHint": "Add a folder to start building your library",
+  "moviesSection": "Movies",
+  "episodesSection": "TV Episodes",
+  "speedLabel": "Speed",
+  "audioLabel": "Audio",
+  "subtitlesLabel": "Subtitles",
+  "seekBack": "Back 10 seconds",
+  "seekForward": "Forward 10 seconds",
+  "trackNumber": "Track {number}",
+  "@trackNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{days, plural, =0{Today} =1{Yesterday} other{{days} days ago}}",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "historyEmpty": "Nothing watched yet",
+  "removeFromHistory": "Remove from History",
+  "markWatched": "Mark as Watched",
+  "markUnwatched": "Mark as Unwatched",
+  "externalLabel": "External",
+  "searchSubtitlesOnline": "Search subtitles online",
+  "noSubtitlesFound": "No subtitles found",
+  "downloadsCount": "{count} downloads",
+  "@downloadsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sdhLabel": "SDH",
+  "saveSubtitleNextToVideo": "Save next to video",
+  "subtitleSaved": "Subtitle saved",
+  "playbackSection": "Playback",
+  "librarySection": "Library",
+  "subtitlesSection": "Subtitles",
+  "appearanceSection": "Appearance",
+  "aboutSection": "About",
+  "defaultSubtitleLanguage": "Default subtitle language",
+  "defaultAudioLanguage": "Default audio language",
+  "rememberPosition": "Remember position",
+  "autoPlayNext": "Auto-play next episode",
+  "skipIntroDuration": "Skip intro duration",
+  "defaultPlaybackSpeed": "Default playback speed",
+  "manageFolders": "Source folders",
+  "autoScanOnStart": "Auto-scan on start",
+  "metadataLanguage": "TMDb metadata language",
+  "subtitleFontSize": "Font size",
+  "tmdbApiKeyLabel": "TMDb API key",
+  "openSubtitlesApiKeyLabel": "OpenSubtitles API key",
+  "apiKeySaved": "API key saved",
+  "themeLabel": "Theme",
+  "themeDark": "Dark",
+  "themeAmoled": "AMOLED Black",
+  "themeLight": "Light",
+  "accentLabel": "Accent color",
+  "accentIndigo": "Indigo",
+  "accentAmber": "Amber",
+  "accentTeal": "Teal",
+  "accentRose": "Rose",
+  "accentEmerald": "Emerald",
+  "appVersionLabel": "Version",
+  "licensesLabel": "Open source licenses",
+  "clearWatchHistory": "Clear Watch History",
+  "clearWatchHistoryConfirm": "This removes all watch history. Continue?",
+  "clearLibraryCache": "Clear Library Cache",
+  "clearLibraryCacheDone": "Metadata cache cleared",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "save": "Save",
+  "secondsValue": "{seconds}s",
+  "@secondsValue": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "trayPlayPause": "Play/Pause",
+  "trayStop": "Stop",
+  "trayQuit": "Quit",
+  "sortLabel": "Sort",
+  "sortByTitle": "By title",
+  "sortByYear": "By year",
+  "sortByShow": "By show",
+  "sortRecentlyAdded": "Recently added",
+  "sortByResolution": "By resolution",
+  "missingEpisodes": "Missing episodes"
+}

@@ -1,0 +1,20 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.g.dart
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Platform build artifacts
+android/.gradle/
+ios/Pods/
+windows/flutter/ephemeral/
+
+# Secrets
+*.env

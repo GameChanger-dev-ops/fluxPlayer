@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Rust / Cargo build outputs
+target/
+**/target/
+
+# Build and bundle outputs
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+
+# TypeScript build info
+*.tsbuildinfo
+**/tsconfig.tsbuildinfo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and environment
+*.log
+.env
+.env.*
+!.env.example

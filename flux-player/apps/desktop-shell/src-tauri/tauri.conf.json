@@ -1,0 +1,9 @@
+{
+ "$schema":"https://schema.tauri.app/config/2",
+ "productName":"Flux Player",
+ "version":"0.1.0",
+ "identifier":"com.gamechanger.fluxplayer",
+ "build":{"beforeDevCommand":"npm run dev","devUrl":"http://localhost:5173","beforeBuildCommand":"npm run build","frontendDist":"../dist"},
+ "app":{"windows":[{"title":"Flux Player","width":1280,"height":820,"minWidth":960,"minHeight":640,"resizable":true}],"security":{"csp":"default-src 'self' asset:; media-src 'self' asset: blob:; img-src 'self' asset: data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self'"}},
+ "bundle":{"active":true,"targets":["nsis","zip"],"windows":{"nsis":{"installMode":"perUser"}}}
+}
